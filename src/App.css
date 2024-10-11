@@ -1,0 +1,33 @@
+/* App.css */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .response-box {
+    width: 300px;
+    height: 300px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 10px;
+    overflow-y: scroll;
+    background-color: #f9f9f9;
+  }
+  
+  .generate-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .generate-button:hover {
+    background-color: #45a049;
+  }
+  
